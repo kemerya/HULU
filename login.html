@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="hulu.css">
+    <link href="https://fonts.googleapis.com/css?
+    family=dosis&isplay=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <style>
+        
+        .container{
+            background-color: whitesmoke;
+            border: 3px solid #f1f1f1;
+            border-radius: 10px;
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            margin-top: 100px;
+        }
+        input[type=next],input[type=password]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px ;
+            box-sizing: border-box;
+        }
+        button[type=submit]{
+            background-color: blueviolet;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button[type=submit]:hover{
+            background-color:blueviolet;
+        }
+        .cancelbtn{
+            background-color:blueviolet;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        .cancelbtn:hover{
+            background-color:blueviolet;
+        }
+        .imgcontainer{
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+        .avatar{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .container label{
+            font-weight: bold;
+        }
+        .container p{
+            margin-top: 10px;
+        }
+        .container .forgotpwd{
+            text-align: right;
+        }
+        .forgotpwd a{
+            text-decoration: none;
+            color:blueviolet;
+        }
+</style>
+</head>
+<body class="affectAll">
+    
+
+    <div class="hero">
+        <div class="navbar">
+          <ul class="nav">
+   <li><a href="hulu.html">Home</a></li>
+   <li><a href="About us.html">About Us</a></li>
+   <li><a href="Services.html">service</a></li>
+   <li><a href="internships.html">Internships</a></li>
+   <!--<li><a href="student.html">Students</a></li>-->
+   <li><a href="companies.html">Companies</a></li>
+   <li><a href="Graduate students.html">Graduate Students</a></li>
+   <li><a href="contact.html">Contact Us</a></li>
+   <!--<li><a href="login.html">Login</a></li>-->
+        </ul>
+             </div>
+    </div>
+<div class="login">
+    <h1>Login</h1>
+    <h4>get your dream job here!</h4>
+    <form >
+        <label>Email</label>
+        <input type="email" name=""required>
+        <label>password</label>
+        <input type="password" name=""required>
+        <input type="submit" name="" value="submit">
+    </form>
+      <p>don't have an account? <a href="signup.html">sign up here</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--- <div class="container">
+        <form action="login.php" method="post">
+            <div class="imgcontainer"
+            <img src="user.jpg"alt="avater"
+            class="avater">
+            </div>
+            <label for="uname"><b>Usename or Email</b></label>
+            <input type="text"placeholder="Enter Username or Email" name="uname" required>
+            <label for="psw"><b>password</b></label>
+            <input type="password"
+            placeholder="Enter password"name="psw" required>
+            <button type="submit">login</button>
+           
+  <p class="forgotpwd"><a href="#">Forgot password?</a></p>
+   <div class="error-msg" style="display:none">Incorrect username or password. Please try again.</div>
+   <button type="button" class="cancelbtn">Cancel</button>
+  </form>
+ </div>
+
+ <script>
+  // Get the login form and cancel button
+  var loginForm = document.querySelector("form");
+  var cancelButton = document.querySelector(".cancelbtn");
+
+  // Add event listener to the cancel button to redirect to home page
+  cancelButton.addEventListener("click", function() {
+   window.location.href = "hulu.html";
+  });
+
+  // Add event listener to the cancel button to redirect to home page
+  loginButton.addEventListener("click", function() {
+   window.location.href = "hulu.html";
+  });
+
+
+  // Add event listener to the login form to handle form submission
+  loginForm.addEventListener("submit", function(event) {
+   event.preventDefault(); // Prevent the form from submitting normally
+
+   // Get the username and password from the form
+   var username = loginForm.uname.value;
+   var password = loginForm.psw.value;
+
+   // TODO: Validate the username and password
+
+   // TODO: Check if the username and password are correct
+   var isCorrect = true; // For demo purposes, assume the username and password are correct
+
+   // If the username and password are incorrect, display an error message
+   if (!isCorrect) {
+    var errorMsg = document.querySelector(".error-msg");
+    errorMsg.style.display = "block";
+   } else {
+    // TODO: Redirect the user to the home page or dashboard
+   }
+  });
+ </script>-->
+</body>
+</html>
